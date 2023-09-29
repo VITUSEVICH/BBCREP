@@ -6,7 +6,11 @@ namespace BBC
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Здравствуй мир!");
+            Console.WriteLine("Введите вашу фамилию:");
+            string surname = Console.ReadLine();
+            Console.WriteLine("Ваша фамилия:" + surname);
+            Console.ReadLine();
+
         }
     }
 }
